@@ -14,27 +14,32 @@
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#welcome" class="nav-link">Welcome</a>
+                    <a href="index.html" class="nav-link active">Welcome</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#education" class="nav-link">Education & Research</a>
+                    <a href="education.html" class="nav-link">Education & Research</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Research Projects</a>
+                    <a href="projects.html" class="nav-link">Research Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#publications" class="nav-link">Publications</a>
+                    <a href="publications.html" class="nav-link">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
     <div class="container">
         <!-- Welcome Section -->
-        <section id="welcome" class="welcome-section">
+        <section class="welcome-section">
             <div class="profile-section">
                 <img src="profile.jpg" alt="Fengyun Hou" class="profile-image">
                 <div class="profile-info">
@@ -62,234 +67,57 @@
                 <p>Currently based at the University of Bristol's School of Psychological Science, I investigate the neural mechanisms underlying language comprehension, the cognitive processes involved in bilingual language processing, and the relationship between language and thought.</p>
                 
                 <p>My research employs various methodologies including behavioral experiments, neuroimaging (fMRI, EEG), and computational modeling to understand the complexities of human language processing.</p>
-            </div>
-        </section>
-
-        <!-- Education & Research Experience Section -->
-        <section id="education" class="education-section">
-            <h2>Education & Research Experience</h2>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Current Position</h3>
-                        <h4>Researcher in Psycholinguistics</h4>
-                        <p class="institution">School of Psychological Science, University of Bristol</p>
-                        <p class="duration">Year - Present</p>
-                        <p class="description">Conducting research on language processing mechanisms, supervising undergraduate projects, and collaborating on interdisciplinary studies combining psychology and neuroscience approaches.</p>
+                
+                <div class="research-highlights">
+                    <h3>Research Highlights</h3>
+                    <div class="highlight-grid">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🧠</div>
+                            <h4>Neural Language Processing</h4>
+                            <p>Investigating brain mechanisms underlying language comprehension using neuroimaging techniques</p>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🌍</div>
+                            <h4>Bilingual Cognition</h4>
+                            <p>Exploring how bilingual speakers process multiple languages and the cognitive advantages of multilingualism</p>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🔬</div>
+                            <h4>Experimental Methods</h4>
+                            <p>Employing cutting-edge techniques including fMRI, EEG, eye-tracking, and behavioral paradigms</p>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">💭</div>
+                            <h4>Language & Thought</h4>
+                            <p>Examining the relationship between language structure, cognitive processes, and conceptual representation</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Ph.D. in Psychology/Cognitive Science</h3>
-                        <p class="institution">University Name</p>
-                        <p class="duration">Year - Year</p>
-                        <p class="description">Dissertation: "Title of your dissertation related to psycholinguistics"<br>
-                        Advisor: Prof. [Advisor Name]</p>
+                <div class="quick-navigation">
+                    <h3>Explore My Work</h3>
+                    <div class="nav-cards">
+                        <a href="education.html" class="nav-card">
+                            <div class="card-icon">🎓</div>
+                            <h4>Education & Experience</h4>
+                            <p>My academic journey and research positions</p>
+                        </a>
+                        <a href="projects.html" class="nav-card">
+                            <div class="card-icon">🔍</div>
+                            <h4>Research Projects</h4>
+                            <p>Current and past research investigations</p>
+                        </a>
+                        <a href="publications.html" class="nav-card">
+                            <div class="card-icon">📚</div>
+                            <h4>Publications</h4>
+                            <p>Peer-reviewed articles and conference presentations</p>
+                        </a>
+                        <a href="contact.html" class="nav-card">
+                            <div class="card-icon">✉️</div>
+                            <h4>Contact & Collaboration</h4>
+                            <p>Get in touch for research opportunities</p>
+                        </a>
                     </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>M.A./M.S. in [Field]</h3>
-                        <p class="institution">University Name</p>
-                        <p class="duration">Year - Year</p>
-                        <p class="description">Specialized in psycholinguistics and experimental psychology methods.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>B.A. in [Field]</h3>
-                        <p class="institution">University Name</p>
-                        <p class="duration">Year - Year</p>
-                        <p class="description">Foundation in psychology, linguistics, and cognitive science.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Research Projects Section -->
-        <section id="projects" class="projects-section">
-            <h2>Research Projects</h2>
-            
-            <div class="projects-tabs">
-                <button class="tab-button active" onclick="showProjects('current')">Current Projects</button>
-                <button class="tab-button" onclick="showProjects('past')">Past Projects</button>
-            </div>
-            
-            <div id="current-projects" class="project-container active">
-                <div class="project-item">
-                    <h3>Neural Mechanisms of Bilingual Language Processing</h3>
-                    <p class="project-duration">2023 - Present</p>
-                    <p class="project-funding">Funded by: [Funding Body] • £[Amount]</p>
-                    <p class="project-description">Investigating how bilingual speakers process their two languages at the neural level using fMRI and EEG. This project explores language switching, cross-linguistic influence, and the neural networks involved in multilingual comprehension.</p>
-                    <div class="project-methods">
-                        <span class="method-tag">fMRI</span>
-                        <span class="method-tag">EEG</span>
-                        <span class="method-tag">Behavioral Experiments</span>
-                    </div>
-                </div>
-                
-                <div class="project-item">
-                    <h3>Semantic Processing in Context</h3>
-                    <p class="project-duration">2022 - Present</p>
-                    <p class="project-funding">Collaborative project with [Institution/Researcher]</p>
-                    <p class="project-description">Examining how contextual information influences semantic processing and word recognition, with particular focus on predictive coding mechanisms in language comprehension.</p>
-                    <div class="project-methods">
-                        <span class="method-tag">Eye-tracking</span>
-                        <span class="method-tag">ERP</span>
-                        <span class="method-tag">Computational Modeling</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="past-projects" class="project-container">
-                <div class="project-item">
-                    <h3>Language Development in Multilingual Children</h3>
-                    <p class="project-duration">2020 - 2022</p>
-                    <p class="project-funding">Completed</p>
-                    <p class="project-description">Longitudinal study investigating language development patterns in children exposed to multiple languages from early age, focusing on cognitive advantages and neural plasticity.</p>
-                    <div class="project-methods">
-                        <span class="method-tag">Longitudinal Study</span>
-                        <span class="method-tag">Behavioral Assessment</span>
-                        <span class="method-tag">Neuroimaging</span>
-                    </div>
-                </div>
-                
-                <div class="project-item">
-                    <h3>Syntactic Processing Across Languages</h3>
-                    <p class="project-duration">2019 - 2021</p>
-                    <p class="project-funding">Completed</p>
-                    <p class="project-description">Cross-linguistic study examining universal and language-specific aspects of syntactic processing using ERP methodology.</p>
-                    <div class="project-methods">
-                        <span class="method-tag">ERP</span>
-                        <span class="method-tag">Cross-linguistic</span>
-                        <span class="method-tag">Syntax</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Publications Section -->
-        <section id="publications" class="publications-section">
-            <h2>Publications & Conference Presentations</h2>
-            
-            <div class="pub-tabs">
-                <button class="pub-tab-button active" onclick="showPublications('journal')">Journal Articles</button>
-                <button class="pub-tab-button" onclick="showPublications('conference')">Conference Presentations</button>
-                <button class="pub-tab-button" onclick="showPublications('working')">Working Papers</button>
-            </div>
-            
-            <div id="journal-pubs" class="pub-container active">
-                <div class="pub-item">
-                    <h3>Neural signatures of semantic prediction in bilingual language comprehension</h3>
-                    <p class="authors"><strong>Hou, F.</strong>, Smith, A., & Johnson, B.</p>
-                    <p class="journal"><em>Journal of Cognitive Neuroscience</em>, 2024, 36(3), 445-462</p>
-                    <div class="pub-links">
-                        <a href="paper1.pdf" target="_blank">📄 PDF</a>
-                        <a href="https://doi.org/paper-doi" target="_blank">🔗 DOI</a>
-                        <a href="https://osf.io/project" target="_blank">📊 Data</a>
-                    </div>
-                </div>
-                
-                <div class="pub-item">
-                    <h3>Cross-linguistic influence in early bilingual development: Evidence from ERP studies</h3>
-                    <p class="authors">Brown, C., <strong>Hou, F.</strong>, & Davis, E.</p>
-                    <p class="journal"><em>Developmental Psychology</em>, 2023, 59(8), 1234-1248</p>
-                    <div class="pub-links">
-                        <a href="paper2.pdf" target="_blank">📄 PDF</a>
-                        <a href="https://doi.org/paper-doi" target="_blank">🔗 DOI</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="conference-pubs" class="pub-container">
-                <div class="conf-item">
-                    <h3>Predictive processing in multilingual sentence comprehension</h3>
-                    <p class="authors"><strong>Hou, F.</strong> & Wilson, K.</p>
-                    <p class="conference">Poster presented at the 46th Annual Conference of the Cognitive Science Society, Rotterdam, Netherlands, July 2024</p>
-                </div>
-                
-                <div class="conf-item">
-                    <h3>Language switching costs in bilingual sentence processing: An ERP investigation</h3>
-                    <p class="authors"><strong>Hou, F.</strong>, Taylor, M., & Anderson, P.</p>
-                    <p class="conference">Talk presented at the International Conference on Bilingualism, Cambridge, UK, June 2024</p>
-                </div>
-                
-                <div class="conf-item">
-                    <h3>Neural mechanisms of semantic integration in context</h3>
-                    <p class="authors"><strong>Hou, F.</strong></p>
-                    <p class="conference">Invited talk at the Psychology Research Seminar, University of Bristol, March 2024</p>
-                </div>
-            </div>
-            
-            <div id="working-pubs" class="pub-container">
-                <div class="pub-item">
-                    <h3>Computational models of bilingual lexical access: A systematic review</h3>
-                    <p class="authors"><strong>Hou, F.</strong>, Garcia, L., & Thompson, R.</p>
-                    <p class="journal"><em>Under review at Psychological Review</em></p>
-                    <div class="pub-links">
-                        <a href="preprint.pdf" target="_blank">📄 Preprint</a>
-                    </div>
-                </div>
-                
-                <div class="pub-item">
-                    <h3>Age of acquisition effects in multilingual semantic processing</h3>
-                    <p class="authors"><strong>Hou, F.</strong> & Lee, S.</p>
-                    <p class="journal"><em>In preparation</em></p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section">
-            <h2>Contact Me</h2>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h3>📧 Email</h3>
-                        <p><a href="mailto:fengyun.hou@bristol.ac.uk">fengyun.hou@bristol.ac.uk</a></p>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <h3>🏢 Office</h3>
-                        <p>Room [Number], [Building Name]<br>
-                        School of Psychological Science<br>
-                        University of Bristol<br>
-                        12a Priory Road, Bristol BS8 1TU, UK</p>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <h3>📞 Phone</h3>
-                        <p>+44 (0)117 [Phone Number]</p>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <h3>🕒 Office Hours</h3>
-                        <p>Tuesdays & Thursdays, 2:00-4:00 PM<br>
-                        <em>Or by appointment</em></p>
-                    </div>
-                </div>
-                
-                <div class="collaboration">
-                    <h3>Collaboration & Opportunities</h3>
-                    <p>I welcome collaborations with researchers in:</p>
-                    <ul>
-                        <li>Psycholinguistics and language processing</li>
-                        <li>Cognitive neuroscience of language</li>
-                        <li>Bilingualism and multilingualism</li>
-                        <li>Developmental psychology</li>
-                        <li>Computational modeling of language</li>
-                    </ul>
-                    
-                    <p><strong>For prospective students:</strong> I am interested in supervising projects related to language processing, bilingualism, and cognitive neuroscience. Please feel free to reach out to discuss potential research opportunities.</p>
                 </div>
             </div>
         </section>
@@ -301,69 +129,20 @@
     </div>
 
     <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
         });
         
-        // Project tabs functionality
-        function showProjects(type) {
-            // Hide all project containers
-            document.querySelectorAll('.project-container').forEach(container => {
-                container.classList.remove('active');
-            });
-            
-            // Remove active class from all buttons
-            document.querySelectorAll('.tab-button').forEach(button => {
-                button.classList.remove('active');
-            });
-            
-            // Show selected container and activate button
-            document.getElementById(type + '-projects').classList.add('active');
-            event.target.classList.add('active');
-        }
-        
-        // Publication tabs functionality
-        function showPublications(type) {
-            // Hide all publication containers
-            document.querySelectorAll('.pub-container').forEach(container => {
-                container.classList.remove('active');
-            });
-            
-            // Remove active class from all buttons
-            document.querySelectorAll('.pub-tab-button').forEach(button => {
-                button.classList.remove('active');
-            });
-            
-            // Show selected container and activate button
-            document.getElementById(type + '-pubs').classList.add('active');
-            event.target.classList.add('active');
-        }
-        
-        // Active navigation highlighting
-        window.addEventListener('scroll', () => {
-            let current = '';
-            const sections = document.querySelectorAll('section');
-            
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (scrollY >= sectionTop - 200) {
-                    current = section.getAttribute('id');
-                }
-            });
-            
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
-        });
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
     </script>
 </body>
 </html>
