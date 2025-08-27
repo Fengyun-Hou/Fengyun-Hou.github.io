@@ -1,0 +1,218 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header and Profile Section */
+header {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 30px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #ddd;
+}
+
+.profile-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.profile-info h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #34495e;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.affiliation {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 8px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #34495e;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+/* Education section */
+.edu-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #3498db;
+}
+
+.edu-item p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Publications section */
+.pub-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+.pub-item h3 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.pub-item p {
+    margin-bottom: 8px;
+}
+
+.pub-links {
+    margin-top: 10px;
+}
+
+.pub-links a {
+    color: #e74c3c;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.pub-links a:hover {
+    text-decoration: underline;
+}
+
+/* News section */
+.news ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.news li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.news li:before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Research interests */
+.research ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.research li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 180px;
+        align-self: center;
+    }
+    
+    .profile-info h1 {
+        font-size: 2em;
+    }
+    
+    .links {
+        font-size: 0.9em;
+    }
+}
