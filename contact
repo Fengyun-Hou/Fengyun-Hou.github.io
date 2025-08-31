@@ -62,8 +62,7 @@
                             <div class="contact-icon">🏢</div>
                             <div class="contact-details">
                                 <h3>Office</h3>
-                                <p>Room [Number], [Building Name]<br>
-                                School of Psychological Science<br>
+                                <p>School of Psychological Science<br>
                                 University of Bristol<br>
                                 12a Priory Road, Bristol BS8 1TU, UK</p>
                             </div>
@@ -73,8 +72,8 @@
                             <div class="contact-icon">📞</div>
                             <div class="contact-details">
                                 <h3>Phone</h3>
-                                <p>+44 (0)117 [Phone Number]</p>
-                                <p class="contact-note">Office hours preferred</p>
+                                <p>+44 7579 955610</p>
+                                <p class="contact-note">Mobile phone</p>
                             </div>
                         </div>
                         
