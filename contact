@@ -1,4 +1,31 @@
-<!DOCTYPE html>
+<div class="opportunity-item">
+                        <h4>Academic Exchange</h4>
+                        <p>Available for short-term research visits or collaborative exchanges, particularly with institutions working on language processing or EEG methodology. Currently scheduled for visiting scholar position at University of Geneva.</p>
+                    </div>PhD Collaboration</h4>
+                        <p>I am a current PhD student interested in collaborating with other researchers working on language processing, EEG methods, or Chinese language studies. Welcome joint projects and data sharing opportunities.</p>
+                        <div class="requirements">
+                            <strong>Areas of Interest:</strong>
+                            <ul>
+                                <li>Frequency-tagging EEG methodologies</li>
+                                <li>Language memory and relational processing</li>
+                                <li>Chinese language processing studies</li>
+                                <li>Cross-linguistic comparisons</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h4>Research Collaboration</h4>
+                        <p>Open to collaborative research projects with labs working on similar topics. Experience with behavioral experiments, EEG data collection, and cross-cultural research.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h4>Undergraduate Mentoring</h4>
+                        <p>Interested in mentoring undergraduate students in research projects related to psycholinguistics, particularly those interested in Chinese language processing or EEG methods.</p>
+                    </div>
+                    
+                    <div class="opportunity-item">
+                        <h4><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -149,11 +176,11 @@
                 <div class="collab-area">
                     <h3>🧠 Current Research Interests</h3>
                     <ul>
-                        <li><strong>Psycholinguistics:</strong> Language processing mechanisms, semantic and syntactic processing</li>
-                        <li><strong>Bilingualism:</strong> Multilingual language control, cross-linguistic influence, language switching</li>
-                        <li><strong>Cognitive Neuroscience:</strong> Neural networks of language, neuroimaging methods (fMRI, EEG)</li>
-                        <li><strong>Individual Differences:</strong> Age of acquisition, proficiency effects, cognitive control</li>
-                        <li><strong>Computational Modeling:</strong> Predictive processing, Bayesian models of language comprehension</li>
+                        <li><strong>Frequency-tagging EEG:</strong> Advanced electrophysiological methods for investigating automatic language processing</li>
+                        <li><strong>Language Memory:</strong> How relational information affects memory organization and retrieval mechanisms</li>
+                        <li><strong>Chinese Language Processing:</strong> Character learning, compound processing, and phonological mechanisms in Chinese</li>
+                        <li><strong>Second Language Acquisition:</strong> Cognitive processes in L2 learning, particularly Chinese as a second language</li>
+                        <li><strong>Cross-linguistic Research:</strong> Comparing language processing mechanisms across different languages and writing systems</li>
                     </ul>
                 </div>
                 
@@ -292,33 +319,33 @@
                         <div class="topic-category">
                             <h4>Academic Presentations</h4>
                             <ul>
-                                <li>Neural mechanisms of bilingual language processing</li>
-                                <li>Predictive coding in language comprehension</li>
-                                <li>Cross-linguistic psycholinguistics methods</li>
-                                <li>Individual differences in multilingual cognition</li>
-                                <li>ERP and fMRI studies of language</li>
+                                <li>Neural mechanisms of language processing and memory</li>
+                                <li>Frequency-tagging EEG methods in psycholinguistics</li>
+                                <li>Chinese language processing: Characters and compounds</li>
+                                <li>Second language acquisition and cognitive mechanisms</li>
+                                <li>Cross-linguistic approaches to language research</li>
                             </ul>
                         </div>
                         
                         <div class="topic-category">
                             <h4>Public Engagement</h4>
                             <ul>
-                                <li>How your multilingual brain works</li>
-                                <li>The cognitive benefits of bilingualism</li>
-                                <li>Language learning and the brain</li>
-                                <li>Myths and facts about multilingualism</li>
-                                <li>The science of language processing</li>
+                                <li>How the brain processes Chinese characters</li>
+                                <li>What happens in your brain when you learn a second language</li>
+                                <li>The science behind language memory</li>
+                                <li>EEG: Reading the electrical language of the brain</li>
+                                <li>Cultural and linguistic diversity in cognitive research</li>
                             </ul>
                         </div>
                         
                         <div class="topic-category">
                             <h4>Educational/Training</h4>
                             <ul>
-                                <li>ERP methodology workshops</li>
-                                <li>Statistical analysis for psycholinguistics</li>
-                                <li>Research design in bilingual studies</li>
-                                <li>Open science practices</li>
-                                <li>Career development in academia</li>
+                                <li>Introduction to EEG methods for language research</li>
+                                <li>Cross-cultural research design and methodology</li>
+                                <li>Statistical analysis for psycholinguistic studies</li>
+                                <li>Chinese language processing paradigms</li>
+                                <li>Graduate student research and career development</li>
                             </ul>
                         </div>
                     </div>
