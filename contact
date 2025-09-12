@@ -1,576 +1,196 @@
-<div class="opportunity-item">
-                        <h4>Academic Exchange</h4>
-                        <p>Available for short-term research visits or collaborative exchanges, particularly with institutions working on language processing or EEG methodology. Currently scheduled for visiting scholar position at University of Geneva.</p>
-                    </div>PhD Collaboration</h4>
-                        <p>I am a current PhD student interested in collaborating with other researchers working on language processing, EEG methods, or Chinese language studies. Welcome joint projects and data sharing opportunities.</p>
-                        <div class="requirements">
-                            <strong>Areas of Interest:</strong>
-                            <ul>
-                                <li>Frequency-tagging EEG methodologies</li>
-                                <li>Language memory and relational processing</li>
-                                <li>Chinese language processing studies</li>
-                                <li>Cross-linguistic comparisons</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4>Research Collaboration</h4>
-                        <p>Open to collaborative research projects with labs working on similar topics. Experience with behavioral experiments, EEG data collection, and cross-cultural research.</p>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4>Undergraduate Mentoring</h4>
-                        <p>Interested in mentoring undergraduate students in research projects related to psycholinguistics, particularly those interested in Chinese language processing or EEG methods.</p>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact & Collaboration - Fengyun Hou</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Fengyun Hou</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Contact details and inquiry form for Fengyun Hou." />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h3>Fengyun Hou</h3>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Welcome</a>
-                </li>
-                <li class="nav-item">
-                    <a href="education.html" class="nav-link">Education & Research</a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link">Research Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="publications.html" class="nav-link">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link active">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container">
-        <section class="page-header">
-            <h1>Contact & Collaboration</h1>
-            <p class="page-subtitle">Get in touch for research opportunities, academic collaborations, or general inquiries</p>
-        </section>
-
-        <section class="contact-main">
-            <div class="contact-grid">
-                <div class="contact-info-section">
-                    <h2>Contact Information</h2>
-                    
-                    <div class="contact-cards">
-                        <div class="contact-card">
-                            <div class="contact-icon">📧</div>
-                            <div class="contact-details">
-                                <h3>Email</h3>
-                                <p><a href="mailto:fengyun.hou@bristol.ac.uk">fengyun.hou@bristol.ac.uk</a></p>
-                                <p class="contact-note">Primary contact for all inquiries</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-card">
-                            <div class="contact-icon">🏢</div>
-                            <div class="contact-details">
-                                <h3>Office</h3>
-                                <p>School of Psychological Science<br>
-                                University of Bristol<br>
-                                12a Priory Road, Bristol BS8 1TU, UK</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-card">
-                            <div class="contact-icon">📞</div>
-                            <div class="contact-details">
-                                <h3>Phone</h3>
-                                <p>+44 7579 955610</p>
-                                <p class="contact-note">Mobile phone</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-card">
-                            <div class="contact-icon">🕒</div>
-                            <div class="contact-details">
-                                <h3>Office Hours</h3>
-                                <p><strong>Term Time:</strong><br>
-                                Tuesdays & Thursdays<br>
-                                2:00-4:00 PM</p>
-                                <p><strong>By Appointment:</strong><br>
-                                Email to schedule</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="quick-contact">
-                    <h2>Quick Contact Form</h2>
-                    <div class="contact-form-container">
-                        <form class="contact-form" action="#" method="post">
-                            <div class="form-group">
-                                <label for="name">Name *</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="email">Email *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="affiliation">Institution/Affiliation</label>
-                                <input type="text" id="affiliation" name="affiliation">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="inquiry-type">Inquiry Type *</label>
-                                <select id="inquiry-type" name="inquiry-type" required>
-                                    <option value="">Select inquiry type</option>
-                                    <option value="collaboration">Research Collaboration</option>
-                                    <option value="student">Student Supervision</option>
-                                    <option value="speaking">Speaking/Presentation</option>
-                                    <option value="review">Manuscript Review</option>
-                                    <option value="media">Media/Interview</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="subject">Subject *</label>
-                                <input type="text" id="subject" name="subject" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="message">Message *</label>
-                                <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your inquiry..."></textarea>
-                            </div>
-                            
-                            <button type="submit" class="submit-btn">Send Message</button>
-                            
-                            <p class="form-note">* Required fields. I typically respond within 2-3 business days.</p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="collaboration-section">
-            <h2>Research Collaboration Opportunities</h2>
-            
-            <div class="collab-grid">
-                <div class="collab-area">
-                    <h3>🧠 Current Research Interests</h3>
-                    <ul>
-                        <li><strong>Frequency-tagging EEG:</strong> Advanced electrophysiological methods for investigating automatic language processing</li>
-                        <li><strong>Language Memory:</strong> How relational information affects memory organization and retrieval mechanisms</li>
-                        <li><strong>Chinese Language Processing:</strong> Character learning, compound processing, and phonological mechanisms in Chinese</li>
-                        <li><strong>Second Language Acquisition:</strong> Cognitive processes in L2 learning, particularly Chinese as a second language</li>
-                        <li><strong>Cross-linguistic Research:</strong> Comparing language processing mechanisms across different languages and writing systems</li>
-                    </ul>
-                </div>
-                
-                <div class="collab-area">
-                    <h3>🤝 Collaboration Types</h3>
-                    <div class="collab-types">
-                        <div class="collab-type">
-                            <h4>Research Partnerships</h4>
-                            <p>Joint studies, data sharing, multi-site collaborations</p>
-                        </div>
-                        <div class="collab-type">
-                            <h4>Student Exchange</h4>
-                            <p>Visiting researchers, joint supervision, internships</p>
-                        </div>
-                        <div class="collab-type">
-                            <h4>Grant Applications</h4>
-                            <p>Collaborative funding proposals, international projects</p>
-                        </div>
-                        <div class="collab-type">
-                            <h4>Conference Organization</h4>
-                            <p>Symposia, special sessions, workshop coordination</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="collab-area">
-                    <h3>🌍 International Networks</h3>
-                    <p>I am actively involved in several international research networks and welcome new collaborations from:</p>
-                    <div class="network-tags">
-                        <span class="network-tag">Europe</span>
-                        <span class="network-tag">North America</span>
-                        <span class="network-tag">Asia-Pacific</span>
-                        <span class="network-tag">Cross-linguistic Studies</span>
-                        <span class="network-tag">Multilingual Communities</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="student-section">
-            <h2>For Prospective Students</h2>
-            
-            <div class="student-info">
-                <div class="student-opportunities">
-                    <h3>📚 Available Opportunities</h3>
-                    
-                    <div class="opportunity-item">
-                        <h4>PhD Students</h4>
-                        <p>I am interested in supervising PhD projects in psycholinguistics, bilingual cognition, and cognitive neuroscience of language. Strong background in psychology, linguistics, or cognitive science preferred.</p>
-                        <div class="requirements">
-                            <strong>Requirements:</strong>
-                            <ul>
-                                <li>Masters degree in relevant field</li>
-                                <li>Research experience preferred</li>
-                                <li>Statistical analysis skills (R/Python)</li>
-                                <li>Strong academic writing abilities</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4>Masters Students</h4>
-                        <p>Masters thesis projects available in bilingual language processing, ERP studies, and cross-linguistic psycholinguistics.</p>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4>Undergraduate Research</h4>
-                        <p>Research placement opportunities for motivated undergraduate students interested in language and cognition research.</p>
-                    </div>
-                    
-                    <div class="opportunity-item">
-                        <h4>Visiting Students</h4>
-                        <p>Short-term research visits (3-12 months) for international students interested in collaborative research projects.</p>
-                    </div>
-                </div>
-                
-                <div class="application-process">
-                    <h3>📝 Application Process</h3>
-                    
-                    <div class="process-steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Initial Inquiry</h4>
-                                <p>Send me an email with your CV, research interests, and a brief description of why you're interested in working with me.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Research Proposal</h4>
-                                <p>If there's mutual interest, I'll ask you to develop a brief research proposal (2-3 pages) outlining your project ideas.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Interview</h4>
-                                <p>Promising candidates will be invited for a video interview to discuss research interests and fit.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-content">
-                                <h4>Formal Application</h4>
-                                <p>Apply through the University of Bristol's formal application system with my support and reference.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="funding-info">
-                        <h4>💰 Funding Opportunities</h4>
-                        <ul>
-                            <li>University of Bristol PhD Scholarships</li>
-                            <li>China Scholarship Council (CSC) Awards</li>
-                            <li>Commonwealth Scholarships</li>
-                            <li>European Research Council (ERC) positions</li>
-                            <li>Industry partnership funding</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="speaking-section">
-            <h2>Speaking & Presentation Requests</h2>
-            
-            <div class="speaking-info">
-                <div class="speaking-topics">
-                    <h3>🎤 Available Topics</h3>
-                    
-                    <div class="topic-categories">
-                        <div class="topic-category">
-                            <h4>Academic Presentations</h4>
-                            <ul>
-                                <li>Neural mechanisms of language processing and memory</li>
-                                <li>Frequency-tagging EEG methods in psycholinguistics</li>
-                                <li>Chinese language processing: Characters and compounds</li>
-                                <li>Second language acquisition and cognitive mechanisms</li>
-                                <li>Cross-linguistic approaches to language research</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="topic-category">
-                            <h4>Public Engagement</h4>
-                            <ul>
-                                <li>How the brain processes Chinese characters</li>
-                                <li>What happens in your brain when you learn a second language</li>
-                                <li>The science behind language memory</li>
-                                <li>EEG: Reading the electrical language of the brain</li>
-                                <li>Cultural and linguistic diversity in cognitive research</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="topic-category">
-                            <h4>Educational/Training</h4>
-                            <ul>
-                                <li>Introduction to EEG methods for language research</li>
-                                <li>Cross-cultural research design and methodology</li>
-                                <li>Statistical analysis for psycholinguistic studies</li>
-                                <li>Chinese language processing paradigms</li>
-                                <li>Graduate student research and career development</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="speaking-logistics">
-                    <h3>📋 Logistics & Requirements</h3>
-                    
-                    <div class="logistics-info">
-                        <div class="logistics-item">
-                            <h4>Availability</h4>
-                            <p>I typically accept 6-8 speaking engagements per year. Please contact me at least 2 months in advance for scheduling.</p>
-                        </div>
-                        
-                        <div class="logistics-item">
-                            <h4>Format Options</h4>
-                            <p>Keynote lectures, research talks, panel discussions, workshops, or public lectures. Virtual or in-person presentations available.</p>
-                        </div>
-                        
-                        <div class="logistics-item">
-                            <h4>Technical Requirements</h4>
-                            <p>Standard presentation equipment. I can provide slides in advance if needed for technical testing.</p>
-                        </div>
-                        
-                        <div class="logistics-item">
-                            <h4>Travel</h4>
-                            <p>For in-person events, travel and accommodation expenses should be covered by the organizing institution.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="social-media">
-            <h2>Connect & Follow</h2>
-            
-            <div class="social-grid">
-                <div class="social-academic">
-                    <h3>Academic Profiles</h3>
-                    <div class="social-links">
-                        <a href="https://scholar.google.com/citations?user=YOUR_ID" class="social-link" target="_blank">
-                            <span class="social-icon">🎓</span>
-                            <span class="social-text">Google Scholar</span>
-                            <span class="social-desc">Publications & citations</span>
-                        </a>
-                        
-                        <a href="https://orcid.org/YOUR_ORCID" class="social-link" target="_blank">
-                            <span class="social-icon">🆔</span>
-                            <span class="social-text">ORCID</span>
-                            <span class="social-desc">Academic identity</span>
-                        </a>
-                        
-                        <a href="https://www.researchgate.net/profile/YOUR_PROFILE" class="social-link" target="_blank">
-                            <span class="social-icon">🔬</span>
-                            <span class="social-text">ResearchGate</span>
-                            <span class="social-desc">Research network</span>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="social-professional">
-                    <h3>Professional Networks</h3>
-                    <div class="social-links">
-                        <a href="https://twitter.com/YOUR_HANDLE" class="social-link" target="_blank">
-                            <span class="social-icon">🐦</span>
-                            <span class="social-text">Twitter</span>
-                            <span class="social-desc">Research updates</span>
-                        </a>
-                        
-                        <a href="https://linkedin.com/in/YOUR_PROFILE" class="social-link" target="_blank">
-                            <span class="social-icon">💼</span>
-                            <span class="social-text">LinkedIn</span>
-                            <span class="social-desc">Professional profile</span>
-                        </a>
-                        
-                        <a href="https://github.com/YOUR_USERNAME" class="social-link" target="_blank">
-                            <span class="social-icon">💻</span>
-                            <span class="social-text">GitHub</span>
-                            <span class="social-desc">Research code</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="newsletter">
-                <h3>📬 Research Updates</h3>
-                <p>Subscribe to receive occasional updates about my research, new publications, and upcoming presentations.</p>
-                <div class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" class="newsletter-input">
-                    <button type="submit" class="newsletter-btn">Subscribe</button>
-                </div>
-                <p class="newsletter-note">Low volume, no spam. Unsubscribe anytime.</p>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2024 Fengyun Hou. Last updated: August 2024.</p>
-            <p>University of Bristol • School of Psychological Science</p>
-        </footer>
+  <nav class="navbar" aria-label="Primary">
+    <div class="nav-container">
+      <a class="nav-logo" href="index.html" aria-label="Go to homepage">
+        <h3>Fengyun Hou</h3>
+      </a>
+      <ul class="nav-menu" id="primary-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Welcome</a></li>
+        <li class="nav-item"><a href="journey.html" class="nav-link">Academic Journey</a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link">Research Projects</a></li>
+        <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </nav>
 
-    <script>
-        // Mobile menu toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-        
-        // Mobile menu toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-        
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-        
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
-        }));
+  <div class="container">
+    <section class="page-header">
+      <h1>Contact</h1>
+      <p class="page-subtitle">Feel free to reach out regarding research collaboration, speaking, or supervision inquiries.</p>
+    </section>
 
-        // Contact form handling
-        const contactForm = document.querySelector('.contact-form');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                // Get form data
-                const formData = new FormData(this);
-                
-                // Show success message (in a real implementation, you'd send the data to a server)
-                const submitBtn = this.querySelector('.submit-btn');
-                const originalText = submitBtn.textContent;
-                
-                submitBtn.textContent = 'Sending...';
-                submitBtn.disabled = true;
-                
-                // Simulate sending
-                setTimeout(() => {
-                    submitBtn.textContent = 'Message Sent!';
-                    submitBtn.style.backgroundColor = '#27ae60';
-                    
-                    // Reset form
-                    setTimeout(() => {
-                        this.reset();
-                        submitBtn.textContent = originalText;
-                        submitBtn.disabled = false;
-                        submitBtn.style.backgroundColor = '';
-                    }, 3000);
-                }, 2000);
-            });
-        }
+    <section class="contact-main">
+      <div class="contact-grid">
+        <!-- Left: Cards -->
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <!-- 替换 user/domain 为你的真实邮箱，例如 user="fengyun.hou" domain="bristol.ac.uk" -->
+              <p>
+                <a id="email-link" href="#" data-user="your.name" data-domain="bristol.ac.uk">Reveal email</a>
+              </p>
+              <p class="contact-note">Click to reveal (spam-protected). Prefer academic inquiries in English or Chinese.</p>
+            </div>
+          </div>
 
-        // Newsletter form handling
-        const newsletterForm = document.querySelector('.newsletter-form');
-        const newsletterBtn = document.querySelector('.newsletter-btn');
-        const newsletterInput = document.querySelector('.newsletter-input');
+          <div class="contact-card">
+            <div class="contact-icon">🏫</div>
+            <div class="contact-details">
+              <h3>Affiliation</h3>
+              <p>School of Psychological Science<br/>University of Bristol</p>
+              <p class="contact-note">Bristol, United Kingdom</p>
+            </div>
+          </div>
 
-        if (newsletterBtn) {
-            newsletterBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const email = newsletterInput.value.trim();
-                if (!email || !email.includes('@')) {
-                    alert('Please enter a valid email address');
-                    return;
-                }
-                
-                const originalText = this.textContent;
-                this.textContent = 'Subscribing...';
-                this.disabled = true;
-                
-                // Simulate subscription
-                setTimeout(() => {
-                    this.textContent = 'Subscribed!';
-                    this.style.backgroundColor = '#27ae60';
-                    newsletterInput.value = '';
-                    
-                    setTimeout(() => {
-                        this.textContent = originalText;
-                        this.disabled = false;
-                        this.style.backgroundColor = '';
-                    }, 3000);
-                }, 1500);
-            });
-        }
+          <div class="contact-card">
+            <div class="contact-icon">🔗</div>
+            <div class="contact-details">
+              <h3>Profiles</h3>
+              <!-- 用你的真实链接替换 -->
+              <p><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a></p>
+              <p><a href="https://orcid.org/YOUR_ORCID" target="_blank" rel="noopener">ORCID</a></p>
+              <p><a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" rel="noopener">ResearchGate</a></p>
+            </div>
+          </div>
+        </div>
 
-        // Animate elements on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+        <!-- Right: Form -->
+        <div class="contact-form-container">
+          <h2 style="margin-top:0;">Send a Message</h2>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text" placeholder="Full name" required />
+            </div>
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
+            <div class="form-group">
+              <label for="from">Email</label>
+              <input id="from" name="from" type="email" placeholder="your@email.com" required />
+            </div>
 
-        // Observe contact cards and other elements
-        document.querySelectorAll('.contact-card, .opportunity-item, .step, .social-link, .collab-area').forEach(item => {
-            item.style.opacity = '0';
-            item.style.transform = 'translateY(20px)';
-            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(item);
-        });
+            <div class="form-group">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option value="general">General</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="speaking">Speaking</option>
+                <option value="supervision">Supervision</option>
+              </select>
+            </div>
 
-        // Form validation enhancements
-        const inputs = document.querySelectorAll('input[required], select[required], textarea[required]');
-        inputs.forEach(input => {
-            input.addEventListener('blur', function() {
-                if (!this.value.trim()) {
-                    this.style.borderColor = '#e74c3c';
-                } else {
-                    this.style.borderColor = '#27ae60';
-                }
-            });
-            
-            input.addEventListener('focus', function() {
-                this.style.borderColor = '#667eea';
-            });
-        });
-    </script>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Short subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button class="submit-btn" type="submit">Send Message</button>
+            <p class="form-note">This form opens your email client (mailto). If it doesn’t work, please email me directly.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional: Collaboration interests（如不需要可删） -->
+    <section class="collaboration-section">
+      <h2>Collaboration Interests</h2>
+      <div class="collab-grid">
+        <div class="collab-area">
+          <h3>Language & Memory</h3>
+          <ul>
+            <li>Relational structure in language</li>
+            <li>Phrase-superiority effects</li>
+            <li>EEG (frequency-tagging, ERP)</li>
+          </ul>
+        </div>
+        <div class="collab-area">
+          <h3>Methods & Tools</h3>
+          <ul>
+            <li>Behavioural paradigms, RT/accuracy</li>
+            <li>Python/R/MATLAB for analysis</li>
+            <li>Experiment design (JsPsych, E-Prime)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Fengyun Hou. Last updated: <span id="updated"></span>.</p>
+      <p>University of Bristol • School of Psychological Science</p>
+    </footer>
+  </div>
+
+  <script>
+    // --- Mobile menu + a11y ---
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    if (hamburger) {
+      const expanded = () => hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', String(!expanded()));
+      });
+      document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      }));
+    }
+
+    // --- Reveal email (spam-protected) ---
+    const emailLink = document.getElementById('email-link');
+    if (emailLink) {
+      const user = emailLink.dataset.user;
+      const domain = emailLink.dataset.domain;
+      const address = `${user}@${domain}`;
+      emailLink.textContent = address;
+      emailLink.href = `mailto:${address}`;
+    }
+
+    // --- Mailto form (static hosting friendly) ---
+    const form = document.getElementById('contact-form');
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value.trim();
+        const from = document.getElementById('from').value.trim();
+        const topic = document.getElementById('topic').value;
+        const subject = document.getElementById('subject').value.trim();
+        const message = document.getElementById('message').value.trim();
+
+        // 取自上面的 emailLink
+        const to = emailLink ? emailLink.textContent : 'your.name@bristol.ac.uk';
+        const fullSubject = `[${topic}] ${subject}`;
+        const body = `Name: ${name}%0D%0AEmail: ${from}%0D%0A%0D%0A${encodeURIComponent(message)}`;
+
+        // 打开本机邮箱客户端
+        window.location.href = `mailto:${to}?subject=${encodeURIComponent(fullSubject)}&body=${body}`;
+      });
+    }
+
+    // --- Footer dates ---
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('updated').textContent = new Date(document.lastModified).toLocaleDateString();
+  </script>
 </body>
 </html>
