@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact - Fengyun Hou</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Contact details and inquiry form for Fengyun Hou." />
+  <meta name="description" content="Contact information for Fengyun Hou." />
 </head>
 <body>
   <nav class="navbar" aria-label="Primary">
@@ -29,106 +29,29 @@
   <div class="container">
     <section class="page-header">
       <h1>Contact</h1>
-      <p class="page-subtitle">Feel free to reach out regarding research collaboration, speaking, or supervision inquiries.</p>
+      <p class="page-subtitle">Address & Email</p>
     </section>
 
     <section class="contact-main">
-      <div class="contact-grid">
-        <!-- Left: Cards -->
-        <div class="contact-cards">
-          <div class="contact-card">
-            <div class="contact-icon">✉️</div>
-            <div class="contact-details">
-              <h3>Email</h3>
-              <!-- 替换 user/domain 为你的真实邮箱，例如 user="fengyun.hou" domain="bristol.ac.uk" -->
-              <p>
-                <a id="email-link" href="#" data-user="your.name" data-domain="bristol.ac.uk">Reveal email</a>
-              </p>
-              <p class="contact-note">Click to reveal (spam-protected). Prefer academic inquiries in English or Chinese.</p>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-icon">🏫</div>
-            <div class="contact-details">
-              <h3>Affiliation</h3>
-              <p>School of Psychological Science<br/>University of Bristol</p>
-              <p class="contact-note">Bristol, United Kingdom</p>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-icon">🔗</div>
-            <div class="contact-details">
-              <h3>Profiles</h3>
-              <!-- 用你的真实链接替换 -->
-              <p><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a></p>
-              <p><a href="https://orcid.org/YOUR_ORCID" target="_blank" rel="noopener">ORCID</a></p>
-              <p><a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" rel="noopener">ResearchGate</a></p>
-            </div>
+      <div class="contact-cards">
+        <!-- Address -->
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <div class="contact-details">
+            <h3>Address</h3>
+            <!-- 如需更精确可补充楼号/邮编 -->
+            <p>School of Psychological Science<br>University of Bristol<br>Bristol, United Kingdom</p>
           </div>
         </div>
 
-        <!-- Right: Form -->
-        <div class="contact-form-container">
-          <h2 style="margin-top:0;">Send a Message</h2>
-          <form id="contact-form" class="contact-form">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input id="name" name="name" type="text" placeholder="Full name" required />
-            </div>
-
-            <div class="form-group">
-              <label for="from">Email</label>
-              <input id="from" name="from" type="email" placeholder="your@email.com" required />
-            </div>
-
-            <div class="form-group">
-              <label for="topic">Topic</label>
-              <select id="topic" name="topic">
-                <option value="general">General</option>
-                <option value="collaboration">Collaboration</option>
-                <option value="speaking">Speaking</option>
-                <option value="supervision">Supervision</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input id="subject" name="subject" type="text" placeholder="Short subject" required />
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
-            </div>
-
-            <button class="submit-btn" type="submit">Send Message</button>
-            <p class="form-note">This form opens your email client (mailto). If it doesn’t work, please email me directly.</p>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Optional: Collaboration interests（如不需要可删） -->
-    <section class="collaboration-section">
-      <h2>Collaboration Interests</h2>
-      <div class="collab-grid">
-        <div class="collab-area">
-          <h3>Language & Memory</h3>
-          <ul>
-            <li>Relational structure in language</li>
-            <li>Phrase-superiority effects</li>
-            <li>EEG (frequency-tagging, ERP)</li>
-          </ul>
-        </div>
-        <div class="collab-area">
-          <h3>Methods & Tools</h3>
-          <ul>
-            <li>Behavioural paradigms, RT/accuracy</li>
-            <li>Python/R/MATLAB for analysis</li>
-            <li>Experiment design (JsPsych, E-Prime)</li>
-          </ul>
+        <!-- Email -->
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-details">
+            <h3>Email</h3>
+            <!-- 替换为你的真实邮箱 -->
+            <p><a href="mailto:your.name@bristol.ac.uk">your.name@bristol.ac.uk</a></p>
+          </div>
         </div>
       </div>
     </section>
@@ -140,55 +63,22 @@
   </div>
 
   <script>
-    // --- Mobile menu + a11y ---
+    // Mobile menu + a11y
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
-    if (hamburger) {
-      const expanded = () => hamburger.getAttribute('aria-expanded') === 'true';
-      hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-        hamburger.setAttribute('aria-expanded', String(!expanded()));
-      });
-      document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navMenu.classList.remove('active');
-        hamburger.setAttribute('aria-expanded', 'false');
-      }));
-    }
+    const expanded = () => hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', String(!expanded()));
+    });
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+      hamburger.setAttribute('aria-expanded', 'false');
+    }));
 
-    // --- Reveal email (spam-protected) ---
-    const emailLink = document.getElementById('email-link');
-    if (emailLink) {
-      const user = emailLink.dataset.user;
-      const domain = emailLink.dataset.domain;
-      const address = `${user}@${domain}`;
-      emailLink.textContent = address;
-      emailLink.href = `mailto:${address}`;
-    }
-
-    // --- Mailto form (static hosting friendly) ---
-    const form = document.getElementById('contact-form');
-    if (form) {
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = document.getElementById('name').value.trim();
-        const from = document.getElementById('from').value.trim();
-        const topic = document.getElementById('topic').value;
-        const subject = document.getElementById('subject').value.trim();
-        const message = document.getElementById('message').value.trim();
-
-        // 取自上面的 emailLink
-        const to = emailLink ? emailLink.textContent : 'your.name@bristol.ac.uk';
-        const fullSubject = `[${topic}] ${subject}`;
-        const body = `Name: ${name}%0D%0AEmail: ${from}%0D%0A%0D%0A${encodeURIComponent(message)}`;
-
-        // 打开本机邮箱客户端
-        window.location.href = `mailto:${to}?subject=${encodeURIComponent(fullSubject)}&body=${body}`;
-      });
-    }
-
-    // --- Footer dates ---
+    // Footer dates
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('updated').textContent = new Date(document.lastModified).toLocaleDateString();
   </script>
