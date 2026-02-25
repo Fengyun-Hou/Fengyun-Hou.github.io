@@ -351,6 +351,30 @@ nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
 
 /* ── CONTACT ── */
 .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 56px; max-width: 900px; }
+
+.contact-card {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.cv-btn-outline {
+  display: inline-block;
+  padding: 11px 28px;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13.5px;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.cv-btn-outline:hover { background: var(--accent); color: white; }
 .contact-info { display: flex; flex-direction: column; gap: 28px; }
 
 .contact-item { display: flex; gap: 14px; align-items: flex-start; }

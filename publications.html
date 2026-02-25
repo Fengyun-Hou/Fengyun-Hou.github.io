@@ -9,13 +9,47 @@
 <body>
 <div class="layout">
 
-  <aside class="sidebar" id="sidebar"></aside>
+  <aside class="sidebar">
+    <div class="avatar-wrap">
+      <img src="PW_Photo.jpg" alt="Fengyun Hou"
+           onerror="this.style.display='none';document.getElementById('avatar-ph').style.display='flex';">
+      <span class="avatar-placeholder" id="avatar-ph" style="display:none;">FH</span>
+    </div>
+    <a href="index.html" class="sidebar-name">Fengyun Hou</a>
+    <div class="sidebar-name-zh">&#20505;&#26080;&#33539; &middot; H&oacute;u F&#275;ngy&uacute;n</div>
+    <div class="sidebar-divider"></div>
+    <div class="sidebar-role">PhD Researcher</div>
+    <div class="sidebar-affil">School of Psychological Science<br>University of Bristol</div>
+    <div class="social-links">
+      <a class="social-link" href="mailto:fengyun.hou@bristol.ac.uk">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>Email
+      </a>
+      <a class="social-link" href="https://github.com/Fengyun-Hou" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>GitHub
+      </a>
+      <a class="social-link" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn
+      </a>
+      <a class="social-link" href="https://bsky.app/profile/YOUR-HANDLE" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 01-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204-.659-.299-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/></svg>Bluesky
+      </a>
+      <a class="social-link" href="https://www.researchgate.net/profile/YOUR-PROFILE" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a12.1 12.1 0 00-.16.776c-.052.343-.088.8-.088 1.376 0 .572.036 1.04.092 1.393.057.345.155.7.296 1.075.282.794.7 1.397 1.26 1.81.557.41 1.24.617 2.053.617.798 0 1.465-.196 2.006-.59a3.77 3.77 0 001.21-1.665c.136-.377.232-.738.285-1.085.055-.35.082-.827.082-1.428 0-.576-.027-1.053-.082-1.4a5.547 5.547 0 00-.286-1.067 3.697 3.697 0 00-1.21-1.656C21.077.198 20.4 0 19.586 0zm-7.49 0C7.58 0 3.925 3.65 3.925 8.158c0 4.502 3.655 8.158 8.168 8.158 4.516 0 8.17-3.656 8.17-8.158 0-.178-.007-.357-.018-.533h-2.02c.015.176.022.354.022.533 0 3.395-2.762 6.15-6.154 6.15S5.94 11.553 5.94 8.158c0-3.393 2.76-6.147 6.154-6.147.67 0 1.317.106 1.92.3V.163A8.126 8.126 0 0012.097 0z"/></svg>ResearchGate
+      </a>
+      <a class="social-link" href="https://scholar.google.com/citations?user=YOUR-ID" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>Google Scholar
+      </a>
+      <a class="social-link" href="https://orcid.org/YOUR-ORCID" target="_blank">
+        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.925-2.484 3.925-3.722 0-2.016-1.284-3.722-3.925-3.722h-2.297z"/></svg>ORCID
+      </a>
+    </div>
+  </aside>
 
   <div class="main">
     <nav>
       <a href="index.html">About</a>
       <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
+      <a href="publications.html" class="active">Publications</a>
       <a href="presentations.html">Presentations</a>
       <a href="cv.html">Curriculum Vitae</a>
       <a href="contact.html">Contact</a>
@@ -24,79 +58,30 @@
     <div class="page-content">
       <div class="section-label">Peer-Reviewed Work</div>
       <div class="section-title">Publications</div>
-
       <div class="pub-list">
-
-        <!-- Manuscripts in Preparation -->
         <div class="pub-year-group">
           <div class="pub-year">In Preparation</div>
-
-          <div class="pub-item">
-            <div class="pub-num">—</div>
-            <div class="pub-content">
-              <span class="badge">Manuscript</span>
-              <div class="pub-title">The role of relations in the memory organisation of language input</div>
-              <div class="pub-meta">Hou, F., &amp; Kazanina, N. (in preparation).</div>
-            </div>
-          </div>
-
-          <div class="pub-item">
-            <div class="pub-num">—</div>
-            <div class="pub-content">
-              <span class="badge">Manuscript</span>
-              <div class="pub-title">Automatic processing of relational structure in language: A frequency-tagging EEG study of Chinese compounds</div>
-              <div class="pub-meta">Hou, F., Anderson, A., &amp; Kazanina, N. (in preparation).</div>
-            </div>
-          </div>
+          <div class="pub-item"><div class="pub-num">&mdash;</div><div class="pub-content"><span class="badge">Manuscript</span><div class="pub-title">The role of relations in the memory organisation of language input</div><div class="pub-meta">Hou, F., &amp; Kazanina, N. (in preparation).</div></div></div>
+          <div class="pub-item"><div class="pub-num">&mdash;</div><div class="pub-content"><span class="badge">Manuscript</span><div class="pub-title">Automatic processing of relational structure in language: A frequency-tagging EEG study of Chinese compounds</div><div class="pub-meta">Hou, F., Anderson, A., &amp; Kazanina, N. (in preparation).</div></div></div>
         </div>
-
-        <!-- 2022 -->
         <div class="pub-year-group">
           <div class="pub-year">2022</div>
-
-          <div class="pub-item">
-            <div class="pub-num">3.</div>
-            <div class="pub-content">
-              <div class="pub-title">Interference effects of radical markings and stroke order animations on Chinese character learning among L2 learners</div>
-              <div class="pub-meta">Hou, F., &amp; Jiang, X. (2022). <em>Frontiers in Psychology</em>, 13.</div>
-              <a class="pub-link" href="https://doi.org/10.3389/fpsyg.2022.XXXXXX" target="_blank">→ View Article</a>
-            </div>
-          </div>
+          <div class="pub-item"><div class="pub-num">3.</div><div class="pub-content"><div class="pub-title">Interference effects of radical markings and stroke order animations on Chinese character learning among L2 learners</div><div class="pub-meta">Hou, F., &amp; Jiang, X. (2022). <em>Frontiers in Psychology</em>, 13.</div><a class="pub-link" href="https://doi.org/10.3389/fpsyg.2022.903468" target="_blank">&rarr; View Article</a></div></div>
         </div>
-
-        <!-- 2020 -->
         <div class="pub-year-group">
           <div class="pub-year">2020</div>
-
-          <div class="pub-item">
-            <div class="pub-num">2.</div>
-            <div class="pub-content">
-              <div class="pub-title">Analytic versus holistic recognition of Chinese words among L2 learners</div>
-              <div class="pub-meta">Jiang, N., Hou, F., &amp; Jiang, X. (2020). <em>The Modern Language Journal</em>, 104(3), 567–580.</div>
-              <a class="pub-link" href="https://doi.org/10.1111/modl.XXXXX" target="_blank">→ View Article</a>
-            </div>
-          </div>
-
-          <div class="pub-item">
-            <div class="pub-num">1.</div>
-            <div class="pub-content">
-              <div class="pub-title">Syllables and phonemes as planning units in Mandarin Chinese spoken word production: Evidence from ERPs</div>
-              <div class="pub-meta">Qu, Q., Chen, F., Hou, F., &amp; Damian, M. (2020). <em>Neuropsychologia</em>, 146, 107573.</div>
-              <a class="pub-link" href="https://doi.org/10.1016/j.neuropsychologia.2020.107573" target="_blank">→ View Article</a>
-            </div>
-          </div>
+          <div class="pub-item"><div class="pub-num">2.</div><div class="pub-content"><div class="pub-title">Analytic versus holistic recognition of Chinese words among L2 learners</div><div class="pub-meta">Jiang, N., Hou, F., &amp; Jiang, X. (2020). <em>The Modern Language Journal</em>, 104(3), 567&ndash;580.</div><a class="pub-link" href="https://doi.org/10.1111/modl.12650" target="_blank">&rarr; View Article</a></div></div>
+          <div class="pub-item"><div class="pub-num">1.</div><div class="pub-content"><div class="pub-title">Syllables and phonemes as planning units in Mandarin Chinese spoken word production: Evidence from ERPs</div><div class="pub-meta">Qu, Q., Chen, F., Hou, F., &amp; Damian, M. (2020). <em>Neuropsychologia</em>, 146, 107573.</div><a class="pub-link" href="https://doi.org/10.1016/j.neuropsychologia.2020.107573" target="_blank">&rarr; View Article</a></div></div>
         </div>
-
-      </div><!-- end pub-list -->
+      </div>
     </div>
 
     <footer>
-      © 2025 Fengyun Hou &nbsp;·&nbsp; University of Bristol &nbsp;·&nbsp;
+      &copy; 2025 Fengyun Hou &nbsp;&middot;&nbsp; University of Bristol &nbsp;&middot;&nbsp;
       <a href="mailto:fengyun.hou@bristol.ac.uk">fengyun.hou@bristol.ac.uk</a>
     </footer>
   </div>
 
 </div>
-<script src="main.js"></script>
 </body>
 </html>
